@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Scrieti numarul de elemente ale sirului Fibonnaci: ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.Write("Sirul este: ");
+            Fibonacci.Generate(n);
         }
     }
 }
